@@ -12,5 +12,5 @@ function on_device_orientation(evt) {
     context.clearRect(0, 0, canvas.width, canvas.height);
     context.translate(centru.x / 2, centru.y / 2);
     context.beginPath();
-    context.fillRect(180, 150, latura_patrat+evt.gamma, latura_patrat+evt.gamma);
+    context.fillRect(180, 150, latura_patrat, latura_patrat+evt.gamma);
 }
